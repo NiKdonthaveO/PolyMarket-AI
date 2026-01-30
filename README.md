@@ -9,4 +9,4 @@ Smart Filtering: Uses `trafilatura` for high-accuracy text extraction (bypassing
 UTC-Standardized: All article times are normalized to UTC for accurate betting window analysis.
 Clean Data: Automatically filters out "ghost" data and legacy RSS entries.
 
-
+uvicorn main:app --reload
